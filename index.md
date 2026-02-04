@@ -7,7 +7,7 @@ layout: home
 
 ### About Me
 
-I hold a **Bachelor of Science in Information Technology** degree and am currently close to completing the **eJPT (eLearn Junior Penetration Tester)** certification.  
+I hold a **Bachelor of Science in Information Technology** degree and am currently close to completing the **eJPT (eLearnSecurity Junior Penetration Tester)** certification.  
 I aim to build a career in **Vulnerability Assessment & Penetration Testing (VAPT)** and **cloud security**.
 
 I document my learning journey in offensive security through hands-on labs, CTFs, and practical experimentation.
