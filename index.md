@@ -4,7 +4,7 @@ layout: home
 
 ## Hi, I am Bhavesh
 
-#### About Me
+
 ### About Me
 I hold a **Bachelor of Science in Information Technology** degree and am currently close to completing the **eJPT (eLearn Junior Penetration Tester)** certification.  
 I aim to build a career in **Vulnerability Assessment & Penetration Testing (VAPT)** and **cloud security**.
@@ -21,6 +21,7 @@ I intentionally keep these write-ups **raw and transparent** to reflect how real
 
 ---
 
+
 ### 👤 Profiles
 - **GitHub**: [massivelowtaperfade0](https://github.com/massivelowtaperfade0)  
 - **TryHackMe**: [MrFade](https://tryhackme.com/p/Mr.Fade)
@@ -31,7 +32,7 @@ I intentionally keep these write-ups **raw and transparent** to reflect how real
 ### 📓 Write-ups
 
 #### TryHackMe
-- [Boiler CTF — Medium](Write-Ups/TryHackMe/Boiler-ctf.md)
+- [Boiler CTF — Medium](Write-Ups/TryHackMe/Boiler-ctf/)
 
 ---
 
