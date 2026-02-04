@@ -15,11 +15,16 @@ The challenge focuses on identifying misconfigurations and abusing poor privileg
 This room reinforces the importance of **thorough enumeration** before exploitation and follows a standard VAPT-style methodology.
 
 VAPT workflow:
-	- Reconnaissance
-	- Enumeration
-	- Exploitation
-	- Initial Access
-	- Privilege Escalation
+
+- Reconnaissance
+
+- Enumeration
+
+- Exploitation
+
+- Initial Access
+
+- Privilege Escalation
 
 > Note: This write-up intentionally includes missteps, dead ends, and corrections to reflect a real VAPT workflow and learning process.
 
@@ -27,11 +32,18 @@ VAPT workflow:
 ### Reconnaissance
 
 We begin with a simple NMAP scan with following flags,
+
  - -sS - TCP SYN (stealth) scan
+
  - -sV - Service Version Detection
+
  - -sC - Default NSE scripts
+ 
  - -Pn - Skip host discovery
+
  - -oN - Save in an output file (*optional*)
+
+ 
 ```bash
 nmap -sS -sV -sC -Pn <target-ip> -oN scan.txt
 ```
@@ -42,12 +54,14 @@ Taking a look at the scan results we can see that, three ports are open i.e. 21,
 
 > **Key finding:**
 >Anonymous FTP login is enabled. This allows unauthenticated users to access the FTP service, which may lead to sensitive information disclosure and/or unauthorized file uploads.
+
 >By default, Nmap scans the top 1000 most common ports, which caused us to initially miss the SSH service running on a high port 55007.
 
 ---
 ### Enumeration
 
 #### FTP Enumeration:
+
 Since anonymous login is enables lets start with FTP
 - To authenticate, we connect to the FTP service and log in using the username `anonymous`.
 - Upon listing the directory contents, a hidden file named `.info.txt` is discovered.
