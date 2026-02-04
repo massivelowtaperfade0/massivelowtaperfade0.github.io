@@ -37,7 +37,7 @@ We begin with a simple NMAP scan with following flags,
 nmap -sS -sV -sC -Pn <target-ip> -oN scan.txt
 ```
 
-![Nmap Scan](Write-Ups/Assets/images/Boiler_ctf/Nmap_Scan.png)
+![Nmap Scan](../../assets/images/Boiler_ctf/Nmap_Scan.png)
 
 Taking a look at the scan results we can see that, three ports are open i.e. 21, 80 and 10000, which as per the `-sV` flag are running, one FTP and two HTTP services (one at port 80 and another at higher port 10000)
 
