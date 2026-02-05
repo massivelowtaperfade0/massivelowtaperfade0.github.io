@@ -2,6 +2,10 @@ title: Security Write-Ups
 description: >
   TryHackMe write-ups focused on enumeration, exploitation, and real VAPT workflows.
 
+github_username: massivelowtaperfade0
+tryhackme_username: Mr.Fade
+linkedin_username: kadam-bhavesh
+
 url: https://massivelowtaperfade0.github.io
 remote_theme: jekyll/minima
 

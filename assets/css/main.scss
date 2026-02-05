@@ -5,6 +5,46 @@
 @import "minima";
 @import "style";
 
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.footer-left {
+  max-width: 60%;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-description {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  line-height: 1.5;
+}
+
+.social-media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media-list li {
+  margin-bottom: 0.4rem;
+}
+
+.social-media-list a {
+  color: #9ca3af;
+  text-decoration: none;
+}
+
+.social-media-list a:hover {
+  color: #ffffff;
+}
+
 
 
 

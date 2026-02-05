@@ -1,0 +1,41 @@
+<footer class="site-footer h-card">
+  <div class="wrapper footer-flex">
+
+    <!-- LEFT: Description -->
+    <div class="footer-left">
+      <p class="footer-description">
+        {{ site.description | escape }}
+      </p>
+    </div>
+
+    <!-- RIGHT: Social links -->
+    <div class="footer-right">
+      <ul class="social-media-list">
+        {%- if site.github_username -%}
+          <li>
+            <a href="https://github.com/{{ site.github_username }}">
+              GitHub
+            </a>
+          </li>
+        {%- endif -%}
+
+        {%- if site.tryhackme_username -%}
+          <li>
+            <a href="https://tryhackme.com/p/{{ site.tryhackme_username }}">
+              TryHackMe
+            </a>
+          </li>
+        {%- endif -%}
+
+        {%- if site.linkedin_username -%}
+          <li>
+            <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+              LinkedIn
+            </a>
+          </li>
+        {%- endif -%}
+      </ul>
+    </div>
+
+  </div>
+</footer>
