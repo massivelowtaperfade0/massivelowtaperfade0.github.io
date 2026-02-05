@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Boiler CTF TryHackMe Write-Up"
-description: "A walkthrough of the Boiler CTF room covering enumeration, exploitation, and privilege escalation."
+description: "A detailed TryHackMe Boiler CTF write-up covering enumeration, sar2html exploitation, and SUID privilege escalation."
 permalink: /write-ups/tryhackme/boiler-ctf/
 platform: "TryHackMe"
 difficulty: "Medium"

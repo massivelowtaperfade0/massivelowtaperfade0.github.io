@@ -1,5 +1,6 @@
 title: Security Write-Ups
-description: VAPT-focused TryHackMe and CTF write-ups documenting enumeration, exploitation, and privilege escalation.
+description: >
+  TryHackMe write-ups focused on enumeration, exploitation, and real VAPT workflows.
 
 url: https://massivelowtaperfade0.github.io
 remote_theme: jekyll/minima

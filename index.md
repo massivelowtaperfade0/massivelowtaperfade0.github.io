@@ -1,5 +1,7 @@
 ---
 layout: home
+title: "Security Write-Ups"
+description: "Hands-on TryHackMe write-ups documenting real VAPT workflows, enumeration-first methodology, and lessons learned."
 ---
 
 ## Hi i am Bhavesh
@@ -33,7 +35,7 @@ I intentionally keep these write-ups **raw and transparent** to reflect how real
 ### 📓 Write-ups
 
 #### TryHackMe
-- - [Boiler CTF TryHackMe Write-Up](/write-ups/tryhackme/boiler-ctf/)
+- [Boiler CTF TryHackMe Write-Up](/write-ups/tryhackme/boiler-ctf/)
 
 
 ---
